@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Helmet from "react-helmet";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <Helmet title="Title setted with Helmet" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
